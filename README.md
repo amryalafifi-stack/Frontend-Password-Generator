@@ -6,9 +6,8 @@ Users start by selecting their preferred password length and deciding which type
 
 The application also includes a clipboard feature, allowing users to copy their password instantly with a single click. A brief confirmation alert lets the user know that the password has been successfully copied.
 
-Behind the scenes, the JavaScript works by reading the user’s selections and dynamically creating a pool of allowed characters. The generatePassword function then produces a random password of the specified length using the selected character types:
 
-
+<img width="3420" height="2214" alt="image" src="https://github.com/user-attachments/assets/02365318-e6bc-42f0-8f4d-ff4e209bf26e" />
 
 
 
