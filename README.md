@@ -6,10 +6,7 @@ Users start by selecting their preferred password length and deciding which type
 
 Here is the link to the live application!
 
-|
-|
-|
-v
+
 https://amryalafifi-stack.github.io/Frontend-Password-Generator/
 
 
