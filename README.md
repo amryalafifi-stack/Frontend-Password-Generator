@@ -4,11 +4,18 @@ The Frontend Password Generator is a web application built entirely with HTML, C
 
 Users start by selecting their preferred password length and deciding which types of characters to include, such as uppercase letters, lowercase letters, numbers, and symbols. Once the options are set, clicking the “Generate Password” button immediately produces a random password that matches the selected criteria. The generated password appears in a neatly styled result box below the title, making it easy to see.
 
-The application also includes a clipboard feature, allowing users to copy their password instantly with a single click. A brief confirmation alert lets the user know that the password has been successfully copied.
+Here is the link to the live application!
+
+|
+|
+|
+v
+https://amryalafifi-stack.github.io/Frontend-Password-Generator/
 
 
 
 
+IMAGE PREVIEW
 
 
 
