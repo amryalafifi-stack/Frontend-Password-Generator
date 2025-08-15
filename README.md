@@ -8,6 +8,14 @@ The application also includes a clipboard feature, allowing users to copy their 
 
 Behind the scenes, the JavaScript works by reading the user’s selections and dynamically creating a pool of allowed characters. The generatePassword function then produces a random password of the specified length using the selected character types:
 
+
+
+
+
+
+
+
+
 function generatePassword() {
     let chars = "";
     if (uppercaseEl.checked) chars += UPPERCASE_CHARS;
@@ -27,7 +35,18 @@ function generatePassword() {
 }
 
 
+
+
+
+
+
+
 When the Generate Password button is clicked, this function runs and updates the result box:
+
+
+
+
+
 
 generateBtn.addEventListener("click", () => {
     const password = generatePassword();
@@ -35,7 +54,19 @@ generateBtn.addEventListener("click", () => {
 });
 
 
+
+
+
+
+
+
+
 The clipboard button retrieves the current password and copies it to the user’s clipboard:
+
+
+
+
+
 
 clipboardBtn.addEventListener("click", () => {
     const password = resultEl.textContent;
@@ -44,6 +75,13 @@ clipboardBtn.addEventListener("click", () => {
         alert("Password copied to clipboard!");
     });
 });
+
+
+
+
+
+
+
 
 
 Overall, this project uses HTML, CSS, and JavaScript  to create a functional, interactive, and visually appealing front-end application. Users can generate secure passwords in real time, customize their character preferences, and easily copy them, all without leaving the page.
