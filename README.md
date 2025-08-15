@@ -7,7 +7,13 @@ Users start by selecting their preferred password length and deciding which type
 The application also includes a clipboard feature, allowing users to copy their password instantly with a single click. A brief confirmation alert lets the user know that the password has been successfully copied.
 
 
-<img width="3420" height="2214" alt="image" src="https://github.com/user-attachments/assets/02365318-e6bc-42f0-8f4d-ff4e209bf26e" />
+
+
+
+
+
+
+<img width="1304" height="725" alt="Screenshot 2025-08-15 at 1 40 22 PM" src="https://github.com/user-attachments/assets/9902d5c9-66c1-48b8-bd42-b6c33aaf7f05" />
 
 
 
@@ -15,12 +21,13 @@ The application also includes a clipboard feature, allowing users to copy their 
 
 
 
-function generatePassword() {
-    let chars = "";
-    if (uppercaseEl.checked) chars += UPPERCASE_CHARS;
-    if (lowercaseEl.checked) chars += LOWERCASE_CHARS;
-    if (numbersEl.checked) chars += NUMBER_CHARS;
-    if (symbolsEl.checked) chars += SYMBOL_CHARS;
+
+
+CODE SNIPPET
+
+################################################################
+
+
 
     if (!chars) return "";
 
@@ -34,46 +41,6 @@ function generatePassword() {
 }
 
 
-
-
-
-
-
-
-When the Generate Password button is clicked, this function runs and updates the result box:
-
-
-
-
-
-
-generateBtn.addEventListener("click", () => {
-    const password = generatePassword();
-    resultEl.textContent = password || "Select at least one option!";
-});
-
-
-
-
-
-
-
-
-
-The clipboard button retrieves the current password and copies it to the user’s clipboard:
-
-
-
-
-
-
-clipboardBtn.addEventListener("click", () => {
-    const password = resultEl.textContent;
-    if (!password) return;
-    navigator.clipboard.writeText(password).then(() => {
-        alert("Password copied to clipboard!");
-    });
-});
 
 
 
